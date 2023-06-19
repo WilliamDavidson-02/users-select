@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+    <title>Users</title>
+</head>
+<body>
+    <form class="search-form">
+        <button class="search add-btn" id="add-user-btn"><i class="fa-solid fa-plus"></i></button>
+        <input type="text" id="search-users" class="search-users">
+        <button type="submit" class="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+    <section class="users-container" id="users-container"></section>
+    <section class="add-users-section is-displaying" id="add-users-section">
+        <form class="add-users-form" enctype="multipart/form-data">
+            <h1 id="user-h1" class="user-h1"></h1>
+            <div class="user-input-file-container">
+                <input title="" id="file-input" class="user-file-input" type="file" accept="image/*">
+                <div class="remove-profile-image is-displaying" id="remove-profile-image">
+                    <i class="fa-solid fa-x"></i>
+                </div>
+                <div class="profile">
+                    <img id="profile-img" class="profile-img" src="" alt="">
+                    <i id="fa-user" class="fa-solid fa-user"></i>
+                </div>
+            </div>
+            <div class="user-input-container">
+                <label for="name-input">Full Name</label>
+                <input id="name-input" class="user-form-input full-name" type="text">
+            </div>
+            <div class="user-input-container">
+                <label for="username-input">Username</label>
+                <input id="username-input" class="user-form-input" type="text">
+            </div>
+            <div class="user-input-container">
+                <label for="email-input">Email</label>
+                <input id="email-input" class="user-form-input" type="email">
+            </div>
+            <button id="user-form-btn" class="user-form-btn user-email" type="submit"><i class="fa-solid fa-pen-to-square form-pen"></i></button>
+            <div id="close-user-form" class="user-form-btn user-email"><i class="fa-solid fa-x form-pen"></i></div>
+        </form>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
