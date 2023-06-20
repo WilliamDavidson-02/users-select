@@ -2,7 +2,7 @@ require("dotenv").config();
 const { Pool } = require("pg");
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = 8080;
 
 // Clears uploadfolder from images when users are created
 const fs = require("fs");

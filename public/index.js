@@ -13,7 +13,7 @@ const formInputEmail = document.getElementById("email-input");
 const userFormBtn = document.getElementById("user-form-btn");
 const removeProfileImgBtn = document.getElementById("remove-profile-image");
 
-const baseUrl = "http://localhost:3000/";
+const baseUrl = "http://users-select-dev.eu-north-1.elasticbeanstalk.com/";
 const classArray = [profileImg, removeProfileImgBtn];
 
 let data;
