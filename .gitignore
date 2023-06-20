@@ -26,8 +26,3 @@ Thumbs.db
 # Ignore temporary files
 *.tmp
 *.swp
-
-# Elastic Beanstalk Files
-.elasticbeanstalk/*
-!.elasticbeanstalk/*.cfg.yml
-!.elasticbeanstalk/*.global.yml
